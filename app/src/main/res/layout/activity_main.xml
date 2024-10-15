@@ -25,9 +25,37 @@
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
             android:hint="Username"
             android:inputType="text"
             android:textSize="20sp"
+            android:background="@drawable/rounded_corner"
+            android:padding="15dp"
+            android:id="@+id/username_input"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:textSize="20sp"
+            android:background="@drawable/rounded_corner"
+            android:padding="15dp"
+            android:id="@+id/password_input"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="Login"
+            android:padding="15dp"
+            android:backgroundTint="#9672D5"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:id="@+id/login_btn"
             />
 
     </LinearLayout>
