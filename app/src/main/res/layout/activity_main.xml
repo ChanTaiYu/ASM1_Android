@@ -24,7 +24,7 @@
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="@string/Username"
+            android:hint="@string/app_name"
             android:inputType="text"
             android:textSize="20sp"
             />
