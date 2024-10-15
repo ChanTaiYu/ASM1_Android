@@ -5,6 +5,8 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="16dp"
     tools:context=".MainActivity">
 
     <LinearLayout
@@ -16,7 +18,16 @@
         <ImageView
             android:layout_width="160dp"
             android:layout_height="160dp"
+            android:src="@drawable/baseline_account_circle_24"
             />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Username"
+            android:textSize="20sp"
+            />
+
     </LinearLayout>
 
 </RelativeLayout>
