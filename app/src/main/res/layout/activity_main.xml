@@ -27,7 +27,7 @@
             android:layout_height="wrap_content"
             android:hint="Username"
             android:inputType="text"
-            android:textSize="15sp"
+            android:textSize="20sp"
             />
 
     </LinearLayout>
