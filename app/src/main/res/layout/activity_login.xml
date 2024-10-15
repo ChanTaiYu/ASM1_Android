@@ -31,7 +31,7 @@
         android:textSize="20sp"
         android:background="@drawable/rounded_corner"
         android:padding="15dp"
-        android:id="@+id/username_input"
+        android:id="@+id/username"
         />
 
     <EditText
@@ -43,7 +43,7 @@
         android:textSize="20sp"
         android:background="@drawable/rounded_corner"
         android:padding="15dp"
-        android:id="@+id/password_input"
+        android:id="@+id/password"
         />
 
     <Button
@@ -55,7 +55,7 @@
         android:backgroundTint="#9672D5"
         android:textColor="#FFFFFF"
         android:textSize="20sp"
-        android:id="@+id/login_btn"
+        android:id="@+id/login"
         />
 
     </LinearLayout>
